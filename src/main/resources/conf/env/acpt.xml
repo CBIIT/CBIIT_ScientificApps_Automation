@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<environment>
+
+		<profile-name>automation</profile-name>
+	
+	<application id="login">
+		<login_url>https://analysistools-stage.cancer.gov/</login_url>
+		<role name="Role">
+			<user id="regular">
+				<name>regular</name>
+				<userId>anVhcmV6ZHM=</userId>
+				<password>RURNNGxpZmU5OQ==</password>
+			</user>
+			<user id="Admin">
+				<name>Admin</name>
+				<userId></userId>
+				<password></password>
+			</user>
+
+		</role>
+
+		<db>
+
+			<default>
+				<driverclassname></driverclassname>
+				<url></url>
+				<username></username>
+				<password></password>
+			</default>
+
+		</db>
+	</application>
+
+</environment>
