@@ -1,5 +1,6 @@
 package com.nci.automation.local.utils;
 
+import com.nci.automation.pages.AnalysisToolHomePage;
 import com.nci.automation.pages.LoginPage;
 import com.nci.automation.steps.impl.LoginPageImpl;
 
@@ -12,12 +13,14 @@ public class PageInitializer {
 	// declare protected static variables of types of all the pages
 	protected static LoginPage login;
 	protected static LoginPageImpl loginImpl;
+	protected static AnalysisToolHomePage atHomePage;
 	
 	
 	public static void initializeAllPages() {
 		// create instances of all pages and assign them to the variables
 		 login = new LoginPage();
 		 loginImpl=new LoginPageImpl();
+		 atHomePage = new AnalysisToolHomePage();
 	}
 	
 }

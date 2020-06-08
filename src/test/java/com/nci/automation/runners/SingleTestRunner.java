@@ -19,7 +19,7 @@ import cucumber.api.junit.Cucumber;
 		, "rerun:target/failed.txt","pretty"}
 		, features="src/test/resources/features"
 		, glue="com.nci.automation.steps"
-		//, tags="@progression"
+		, tags="@progression"
 		, dryRun = false
 		, monochrome=true
 		, strict = true

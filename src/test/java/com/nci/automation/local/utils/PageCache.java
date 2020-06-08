@@ -1,7 +1,8 @@
 package com.nci.automation.local.utils;
 
+import com.nci.automation.steps.impl.LDassocImpl;
 import com.nci.automation.steps.impl.LoginPageImpl;
-import com.nci.automation.web.CommonUtils;
+
 
 public class PageCache {
 
@@ -21,15 +22,10 @@ public class PageCache {
 	}
 
 	// private pages variables
+	//add implementation class object here
 	private LoginPageImpl loginPageImpl;
-	private CommonUtils commonUtils;
+	private LDassocImpl LDassocImpl;
 	
-	
-	public CommonUtils getCommonUtils() {
-		if (commonUtils == null)
-			commonUtils = new CommonUtils();
-		return commonUtils;
-	}
 	
 	
 	public LoginPageImpl getLoginPageImpl() {
@@ -37,6 +33,16 @@ public class PageCache {
 			loginPageImpl = new LoginPageImpl();
 		return loginPageImpl;
 	}
+	
+	
+	public LDassocImpl getLDassocImpl() {
+		if (LDassocImpl == null)
+			LDassocImpl = new LDassocImpl();
+		return LDassocImpl;
+	}
+	
+	
+	
 	
 	
 

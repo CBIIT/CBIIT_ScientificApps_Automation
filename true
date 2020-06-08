@@ -1,6 +1,6 @@
-[1591283477.745][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 29086
-[1591283477.745][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-[1591283478.313][INFO]: [c53afe13d90014cc2d2f557bf46a9e1f] COMMAND InitSession {
+[1591394541.626][INFO]: Starting ChromeDriver 83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416}) on port 35445
+[1591394541.626][INFO]: Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+[1591394541.817][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND InitSession {
    "capabilities": {
       "firstMatch": [ {
          "browserName": "chrome",
@@ -18,7 +18,7 @@
       }
    }
 }
-[1591283478.315][INFO]: Populating Preferences file: {
+[1591394541.819][INFO]: Populating Preferences file: {
    "alternate_error_pages": {
       "enabled": false
    },
@@ -71,7 +71,7 @@
       "enabled": false
    }
 }
-[1591283478.316][INFO]: Populating Local State file: {
+[1591394541.819][INFO]: Populating Local State file: {
    "background_mode": {
       "enabled": false
    },
@@ -81,23 +81,23 @@
       }
    }
 }
-[1591283478.319][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension="C:\Users\sohilz2\AppData\Local\Temp\1\scoped_dir14804_657616570\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\sohilz2\AppData\Local\Temp\1\scoped_dir14804_767051207" data:,
-[1591283478.846][INFO]: resolved localhost to ["127.0.0.1","::1"]
-[1591283479.138][INFO]: [c53afe13d90014cc2d2f557bf46a9e1f] RESPONSE InitSession {
+[1591394541.820][INFO]: Launching chrome: /Applications/Google Chrome.app/Contents/MacOS/Google Chrome --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --load-extension=/var/folders/10/x0tkb8rd0yl84mhcx3t01lbr43m3_9/T/.com.google.Chrome.IHshOr/internal --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir=/var/folders/10/x0tkb8rd0yl84mhcx3t01lbr43m3_9/T/.com.google.Chrome.HMs1Sp data:,
+[1591394542.826][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1591394542.864][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE InitSession {
    "capabilities": {
       "acceptInsecureCerts": false,
       "browserName": "chrome",
-      "browserVersion": "83.0.4103.61",
+      "browserVersion": "83.0.4103.97",
       "chrome": {
          "chromedriverVersion": "83.0.4103.39 (ccbf011cb2d2b19b506d844400483861342c20cd-refs/branch-heads/4103@{#416})",
-         "userDataDir": "C:\\Users\\sohilz2\\AppData\\Local\\Temp\\1\\scoped_dir14804_767051207"
+         "userDataDir": "/var/folders/10/x0tkb8rd0yl84mhcx3t01lbr43m3_9/T/.com.google.Chrome.HMs1Sp"
       },
       "goog:chromeOptions": {
-         "debuggerAddress": "localhost:61500"
+         "debuggerAddress": "localhost:58959"
       },
       "networkConnectionEnabled": false,
       "pageLoadStrategy": "normal",
-      "platformName": "windows",
+      "platformName": "mac os x",
       "proxy": {
 
       },
@@ -111,5 +111,122 @@
       "unhandledPromptBehavior": "dismiss and notify",
       "webauthn:virtualAuthenticators": true
    },
-   "sessionId": "c53afe13d90014cc2d2f557bf46a9e1f"
+   "sessionId": "d9216debfb3dc66ce52a265c11d53572"
 }
+[1591394542.951][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND MaximizeWindow {
+
+}
+[1591394542.951][INFO]: Waiting for pending navigations...
+[1591394542.952][INFO]: Done waiting for pending navigations. Status: ok
+[1591394542.952][INFO]: resolved localhost to ["127.0.0.1","::1"]
+[1591394543.081][INFO]: Waiting for pending navigations...
+[1591394543.082][INFO]: Done waiting for pending navigations. Status: ok
+[1591394543.082][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE MaximizeWindow {
+   "height": 1015,
+   "width": 1792,
+   "x": 0,
+   "y": 23
+}
+[1591394543.107][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND MaximizeWindow {
+
+}
+[1591394543.107][INFO]: Waiting for pending navigations...
+[1591394543.107][INFO]: Done waiting for pending navigations. Status: ok
+[1591394543.213][INFO]: Waiting for pending navigations...
+[1591394543.214][INFO]: Done waiting for pending navigations. Status: ok
+[1591394543.214][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE MaximizeWindow {
+   "height": 1015,
+   "width": 1792,
+   "x": 0,
+   "y": 23
+}
+[1591394543.293][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND Navigate {
+   "url": "https://analysistools-stage.cancer.gov/"
+}
+[1591394543.293][INFO]: Waiting for pending navigations...
+[1591394543.294][INFO]: Done waiting for pending navigations. Status: ok
+[1591394543.475][INFO]: Waiting for pending navigations...
+[1591394543.822][INFO]: Done waiting for pending navigations. Status: ok
+[1591394543.822][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE Navigate
+[1591394543.828][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND MaximizeWindow {
+
+}
+[1591394543.828][INFO]: Waiting for pending navigations...
+[1591394543.829][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.014][INFO]: Waiting for pending navigations...
+[1591394544.014][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.015][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE MaximizeWindow {
+   "height": 1017,
+   "width": 1792,
+   "x": 0,
+   "y": 23
+}
+[1591394544.017][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND Screenshot {
+
+}
+[1591394544.017][INFO]: Waiting for pending navigations...
+[1591394544.017][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.654][INFO]: Waiting for pending navigations...
+[1591394544.654][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.654][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAADgAAAAb8CAYAAABofbtMAAABKGlDQ1BTa2lhAAAokX2RP0jDUBCHP4uLfxBBRQeHOOmithWjBR1MwSJurUJ1S9NQxDaGNEWdu7q7Oru66l6cBMFBXN0FwbX+XjukIPWOe/fxu3sv7/IgtYAsNQ2NII6KBccqn5xaDJjrNUOG2wj8v..."
+[1591394544.765][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND MaximizeWindow {
+
+}
+[1591394544.765][INFO]: Waiting for pending navigations...
+[1591394544.766][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.870][INFO]: Waiting for pending navigations...
+[1591394544.870][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.870][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE MaximizeWindow {
+   "height": 1017,
+   "width": 1792,
+   "x": 0,
+   "y": 23
+}
+[1591394544.874][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND FindElement {
+   "using": "xpath",
+   "value": "//*[@id='landing-blockcontent']/div[9]/h3/a"
+}
+[1591394544.874][INFO]: Waiting for pending navigations...
+[1591394544.875][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.883][INFO]: Waiting for pending navigations...
+[1591394544.884][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.884][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE FindElement {
+   "element-6066-11e4-a52e-4f735466cecf": "8e2eb123-0443-4729-9c30-fba98a07eb59"
+}
+[1591394544.887][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND ExecuteScript {
+   "args": [ {
+      "ELEMENT": "8e2eb123-0443-4729-9c30-fba98a07eb59",
+      "element-6066-11e4-a52e-4f735466cecf": "8e2eb123-0443-4729-9c30-fba98a07eb59"
+   } ],
+   "script": "arguments[0].click();"
+}
+[1591394544.888][INFO]: Waiting for pending navigations...
+[1591394544.888][INFO]: Done waiting for pending navigations. Status: ok
+[1591394544.897][INFO]: Waiting for pending navigations...
+[1591394545.775][INFO]: Done waiting for pending navigations. Status: ok
+[1591394545.775][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE ExecuteScript null
+[1591394545.778][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND MaximizeWindow {
+
+}
+[1591394545.778][INFO]: Waiting for pending navigations...
+[1591394545.801][INFO]: Done waiting for pending navigations. Status: ok
+[1591394545.905][INFO]: Waiting for pending navigations...
+[1591394545.905][INFO]: Done waiting for pending navigations. Status: ok
+[1591394545.905][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE MaximizeWindow {
+   "height": 1017,
+   "width": 1792,
+   "x": 0,
+   "y": 23
+}
+[1591394545.907][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND Screenshot {
+
+}
+[1591394545.907][INFO]: Waiting for pending navigations...
+[1591394545.907][INFO]: Done waiting for pending navigations. Status: ok
+[1591394546.467][INFO]: Waiting for pending navigations...
+[1591394546.468][INFO]: Done waiting for pending navigations. Status: ok
+[1591394546.468][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE Screenshot "iVBORw0KGgoAAAANSUhEUgAADgAAAAb8CAYAAABofbtMAAABKGlDQ1BTa2lhAAAokX2RP0jDUBCHP4uLfxBBRQeHOOmithWjBR1MwSJurUJ1S9NQxDaGNEWdu7q7Oru66l6cBMFBXN0FwbX+XjukIPWOe/fxu3sv7/IgtYAsNQ2NII6KBccqn5xaDJjrNUOG2wj8v..."
+[1591394548.535][INFO]: [d9216debfb3dc66ce52a265c11d53572] COMMAND Quit {
+
+}
+[1591394548.586][INFO]: [d9216debfb3dc66ce52a265c11d53572] RESPONSE Quit

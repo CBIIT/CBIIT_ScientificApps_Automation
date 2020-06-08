@@ -127,7 +127,7 @@ public class WebDriverUtils {
 					desiredCapabilities.setCapability(InternetExplorerDriver.IGNORE_ZOOM_SETTING, Boolean.TRUE);
 					desiredCapabilities.setCapability(CapabilityType.UNEXPECTED_ALERT_BEHAVIOUR, "ignore");
 					webDriver = new InternetExplorerDriver(desiredCapabilities);
-					webDriver.manage().window().maximize();
+					//webDriver.manage().window().maximize();
 					return webDriver;
 
 				} else if (browser.equalsIgnoreCase(Constants.BROWSER_FIREFOX)) {
@@ -180,13 +180,15 @@ public class WebDriverUtils {
 					return null;
 				}
 			}
+			long implicitWaitInSeconds = Long.valueOf(LocalConfUtils.getProperty("implicitWaitInSeconds"));
+			webDriver.manage().timeouts().implicitlyWait(implicitWaitInSeconds, TimeUnit.SECONDS);
 		}
-
+		
 		String osName = Constants.GET_OS_NAME;
 
 		if (!browser.equals("phantomjs")) {
 			if (osName.contains("Mac")) {
-				webDriver.manage().window().fullscreen();
+				webDriver.manage().window().maximize();
 			} else if (osName.contains("Windows")) {
 				webDriver.manage().window().maximize();
 			}
