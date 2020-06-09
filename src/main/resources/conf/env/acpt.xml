@@ -8,8 +8,8 @@
 		<role name="Role">
 			<user id="regular">
 				<name>regular</name>
-				<userId>anVhcmV6ZHM=</userId>
-				<password>RURNNGxpZmU5OQ==</password>
+				<userId></userId>
+				<password></password>
 			</user>
 			<user id="Admin">
 				<name>Admin</name>

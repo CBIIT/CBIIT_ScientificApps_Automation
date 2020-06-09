@@ -8,8 +8,8 @@
 		<role name="Role">
 			<user id="regular">
 				<name>regular</name>
-				<userId>anVhcmV6ZHM=</userId><!-- add test user -->
-				<password>RURNNGxpZmU5OQ==</password><!-- add test pass -->
+				<userId></userId><!-- add test user -->
+				<password></password><!-- add test pass -->
 			</user>
 			
 			
